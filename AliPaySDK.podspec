@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name             = "AliPaySDK-Pod"
   s.version          = "15.0.8"
-  s.summary          = "An unofficial MTA AliPaySDK Cocoapods repository."
+  s.summary          = "An unofficial AliPaySDK Cocoapods repository."
   s.homepage         = "https://doc.open.alipay.com/doc2/alipayDocIndex.htm"
   s.license          = 'MIT'
   s.author           = { "VVJason" => "https://github.com/VVJason" }
