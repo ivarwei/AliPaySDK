@@ -6,15 +6,13 @@ Pod::Spec.new do |s|
   s.homepage         = "https://doc.open.alipay.com/doc2/alipayDocIndex.htm"
   s.license          = 'MIT'
   s.author           = { "VVJason" => "https://github.com/VVJason" }
+  s.platform         = :ios, '7.0'
   s.source           = { :git => "https://github.com/VVJason/AliPaySDK.git", :tag => s.version }
 
-  s.source_files = "SDK"
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
+  s.resources        = "SDK/AlipaySDK.bundle"
+  s.frameworks       = 'SystemConfiguration', 'CoreMotion','CFNetwork', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation'
+  s.libraries        = 'z', 'c++'
   s.vendored_frameworks = "SDK/AlipaySDK.framework"
-  s.frameworks        = 'SystemConfiguration', 'CoreMotion','CFNetwork', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation'
-  s.libraries         = 'z', 'c++'
+  s.requires_arc     = true
 
 end
