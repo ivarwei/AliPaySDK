@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { "VVJason" => "https://github.com/VVJason" }
   s.source           = { :git => "https://github.com/VVJason/AliPaySDK.git", :tag => s.version }
 
-  s.source_files = "SDK/*.*"
+  s.source_files = "SDK/AlipaySDK.bundle"
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
