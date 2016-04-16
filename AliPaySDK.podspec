@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "VVJason" => "https://github.com/VVJason" }
   s.platform         = :ios, '7.0'
-  s.source           = { :git => "https://github.com/VVJason/AliPaySDK.git", :commit => "a8b78831ff4646c7b0e150fc06a8dc4ec320e011" }
+  s.source           = { :git => "https://github.com/VVJason/AliPaySDK.git", :tag => s.version }
 
   s.resources        = "SDK/AlipaySDK.bundle"
   s.frameworks       = 'SystemConfiguration', 'CoreMotion','CFNetwork', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation'
